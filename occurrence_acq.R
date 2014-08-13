@@ -4,7 +4,7 @@
 
 #Specifies input parameters
 include_taxon<-"Brachiopoda"
-maxinterval<-"Kungurian"
+maxinterval<-"Roadian"
 mininterval<-"Changhsingian"
 
 #reads names and ages of time intervals
