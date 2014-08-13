@@ -37,6 +37,9 @@ schina<-subset(resolved_occs,resolved_occs$geoplate==611)
 pakistan<-subset(resolved_occs,resolved_occs$cc=="PK" & resolved_occs$lat<33.5)
 tethys<-subset(resolved_occs,resolved_occs$lng>5 & resolved_occs$lng<145 & resolved_occs$lat>0 & resolved_occs$lat<45)
 
+#list of genera found globally in Lopingian
+loping<-subset(resolved_occs,resolved_occs$early_interval=="Wuchiapingian" | resolved_occs$early_interval=="Changhsingian")
+
 iran$matched_name<-as.factor(iran$matched_name)
 schina$matched_name<-as.factor(schina$matched_name)
 pakistan$matched_name<-as.factor(pakistan$matched_name)
